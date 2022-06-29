@@ -1,0 +1,411 @@
+/* Design */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+top: 13px;
+}
+
+#regform {
+margin: auto !important;
+height: 630px;
+
+
+}
+
+
+.btn {
+width: 660px;
+position: relative;
+bottom: 348px;
+left: 80px;
+}
+
+#card-reg {
+position: relative;
+bottom: 45px;
+}
+
+select {
+width:100% !important;
+height: 35px;
+border: 1px solid #e3e5e6;
+border-radius: 4px;
+box-sizing: border-box;
+text-align: center;
+outline-color: #4a4d4b;
+width: 100%;
+position: relative;
+bottom: 8px;
+}
+
+.month {
+width: 24%;
+}
+
+.position {
+width: 100%;
+height: 35px;
+position: relative;
+bottom: 8px;
+}
+
+
+.form-control {
+height: 35px;
+position: relative;
+bottom: 8px;
+}
+
+.form-control:focus {
+box-shadow: none;
+border-color: #4a4d4b;
+}
+
+
+h6,
+.form-label {
+ font-family: 'Maven Pro', sans-serif;
+}
+
+
+h3 {
+font-family: 'Maven Pro', sans-serif;
+
+}
+
+i {
+font-size: 50px;
+position: relative;
+top: 12px;
+}
+
+.year {
+    position: relative;
+    bottom: 186px;
+    left: 400px;
+}
+
+#sem-group {
+    position: relative;
+    bottom: 158px;
+    left: 46px;
+}
+
+.semester {
+    width: 85% !important;
+}
+
+.student-name {
+    width: 97%;
+}
+
+.school {
+    position: relative;
+    bottom: 308px;
+    left: 425px;
+}
+
+.file-upload {
+    position: relative;
+    bottom: 314px;
+    left: 70px;
+}
+
+.upload-input, .grade-input, .school-input {
+    width: 326px;
+}
+
+
+.grade-upload {
+    position: relative;
+    bottom: 400px;
+    left: 424px;
+}
+
+.footer {
+    position: relative;
+    bottom: 358px;
+    left: 80px;
+}
+
+#box-section {
+    margin-top: 80px !important;
+    
+}
+
+
+/* Page 2 */
+
+
+.td-score, .td-item {
+    font-weight: bold;
+}
+
+
+#class {
+    margin: auto !important;
+    height: 450px;      
+}
+
+.tb-input {
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    top: 0px;
+}
+
+#all-box {
+    position: relative;
+    right: 250px !important;
+}
+
+.table {
+    margin-left: 5px;
+}
+
+.table-acads, .table-exam  {
+    margin-left: 80px;
+    position: relative;
+    width: 80%;
+}
+
+#table-exam {
+    height: 300px;
+    margin: auto !important;
+}
+
+#table-acad {
+    height: 500px;
+    margin: auto !important;
+}
+
+
+#btn-position {
+    position: relative;
+    top: 460px;
+    right: 85px;
+
+}
+
+#page-box1 {
+    position: absolute !important;
+    left: 252px !important;
+}
+
+#page-box2 {
+    position: absolute !important;
+    right: 252px !important;
+}
+
+#page-box3 {
+    position: absolute !important;
+    left: 252px !important;
+    top: 596px;
+}
+
+#page-box4 {
+    position: absolute !important;
+    right: 252px !important;
+    top: 596px;
+}
+
+.btn-page2 {
+    width: 1000px;
+    margin-top: 50px;
+    
+}
+
+/* Page 3 */
+
+#box-page1 {
+    position: absolute !important;
+    right: 350px !important;
+    top: 340px;
+}
+
+#box-page2 {
+    position: absolute !important;
+    left: 350px !important;
+    top: 340px;
+}
+
+#box-page3 {
+    position: absolute !important;
+    right: 350px !important;
+    top: 790px;
+}
+
+#box-page4 {
+    position: absolute !important;
+    left: 350px !important;
+    top: 790px;
+}
+
+
+/* User Info Page 3 */
+
+#userinfo {
+    position: absolute;
+    left: 252px;
+    top: 20px;
+    height: 320px !important;
+    
+}
+
+#total {
+    position: relative;
+    top: 20px;
+    left: 280px;
+}
+
+#total-quiz {
+    position: relative;
+    top: 110px;
+    left: 370px;
+}
+
+#exam {
+    position: relative;
+    top: 95px;
+    left: 315px;
+}
+
+#grade {
+    position: relative;
+    top: 95px;
+    left: 315px;
+}
+
+#total-acad {
+    position: relative;
+    top: 50px;
+    left: 202px !important;
+}
+
+
+.grade {
+    width: 85px;
+    position: relative;
+    bottom: 90px;
+    right: 370px;
+    height: 30px;
+
+}
+
+.points {
+    width: 120px !important;
+    position: relative;
+    top: 5px;
+    right: 40px;
+    height: 30px;
+
+}
+
+
+.exam {
+    width: 85px;
+    position: relative;
+    bottom: 28px;
+    left: 245px;
+    height: 30px;
+
+}
+
+.total-exam {
+    width: 85px !important;
+    position: relative;
+    bottom: 28px;
+    left: 190px;
+    height: 30px;
+
+}
+
+.total-class {
+    width: 85px;
+    position: relative;
+    bottom: 28px;
+    left: 280px;
+    height: 30px;
+
+}
+
+.total-quiz {
+    width: 85px;
+    position: relative;
+    bottom: 28px;
+    left: 190px;
+    height: 30px;
+
+}
+
+
+
+
+.total-acad {
+    width: 85px;
+    position: relative;
+    bottom: 28px;
+    left: 245px;
+    height: 30px;
+
+}
+
+.total-grade {
+    width: 200px;
+    position: relative;
+    bottom: 28px;
+    left: 185px;
+    height: 30px;
+}
+
+#gradeacads {
+    margin: auto !important;
+    height: 385px !important; 
+}
+
+#footer-grade {
+    position: absolute;
+    right: 600px;
+    top: 383px;
+    height: 400px;
+}
+
+
+/* Validation Form */
+
+.message-upload {
+    position: relative;
+    bottom: 90px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+  .success {
+    color: green;
+  }
+
+  .error {
+    color: red;
+  }
+
+
+#table-footer {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
