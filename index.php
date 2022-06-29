@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans&family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+
+
+    <section id="box-section" class="vh-100 gradient-custom">
+      <div class="container py-5 h-100">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-12 col-lg-9 col-xl-7">
+            <div id="regform" class="mt-5 border p-4 shadow" style="border-radius: 5px; width: 820px;">
+              <div id="card-reg" class="card-body p-4 p-md-5">
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center">
+                  <img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-calculator-physics-icongeek26-linear-colour-icongeek26.png"> Grading Calculator
+                </h3>
+                <form method="POST" action="page2.php" enctype='multipart/form-data'>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <h6>
+                          <label class="form-label">Name <span class="text-danger">*</span>
+                          </label>
+                        </h6>
+                        <input type="text" name="name" class="form-control form-control-mb" spellcheck="false" autocomplete="off" required/>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <h6>
+                          <label class="form-label">Course <span class="text-danger">*</span>
+                          </label>
+                        </h6>
+                        <select class="course" autocomplete="off" name="course" required>
+                          <option disabled selected></option>
+                          <option value="BS Information Technology">BSIT</option>
+                          <option value="BS Computer Science">BSCS</option>
+                          <option value="BS Interior Design">BSID</option> 
+                          <option value="BS Electronics And Communication">BSECE</option> 
+                          <option value="BS Hotel and Restaurant Management">BSHRM</option> 
+                  </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <h6>
+                        <label class="form-label">Student Number <span class="text-danger">*</span>
+                        </label>
+                      </h6>
+                      <input type="text" name="student_num" onkeypress="return event.charCode >= 48 && event.charCode <= 57" class="form-control form-control-mb student-name" spellcheck="false" autocomplete="off" required/>
+                    </div>
+                  </div>
+
+                </div>
+                
+                <div class="year">
+
+                <h6 class="mb-2 pb-1">Year <span class="text-danger">*</span></h6>
+
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="year" value="1st Year" required>
+                      <label class="form-check-label">
+                          1st
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="year" value="2nd Year" required>
+                      <label class="form-check-label">
+                          2nd
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="year" value="3rd Year" required>
+                      <label class="form-check-label">
+                        3rd
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="year" value="4th Year" required>
+                      <label class="form-check-label">
+                        4th
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="year" value="5th Year" required>
+                      <label class="form-check-label">
+                        5th
+                      </label>
+
+                    </div>
+                  </div>
+
+                  <div id="sem-group" class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <h6>
+                        <label class="form-label">Semester <span class="text-danger">*</span>
+                        </label>
+                      </h6>
+                      <select class="semester" autocomplete="off" name="semester" required>
+                        <option disabled selected></option>
+                        <option value="1st Semester">1st Semester</option>
+                        <option value="2nd Semenster">2nd Semenster</option>
+                        <option value="Summer">Summer</option> 
+                </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4 school">
+                  <div class="form-outline">
+                    <h6>
+                      <label class="form-label">School Year<span class="text-danger">*</span>
+                      </label>
+                    </h6>
+                    <input type="text" name="schoolYear" class="form-control form-control-mb school-input" spellcheck="false" autocomplete="off" required/>
+                  </div>
+                </div>
+
+                <div class="mb-3 file-upload">
+                  <h6>
+                    <label class="form-label">Upload Image <span class="text-danger">*</span>
+                    </label>
+                  </h6>
+                  <input class="form-control upload-input" type="file" name="imageUpload" accept="image/*">
+                </div>
+                
+                <div class="mb-3 grade-upload">
+                  <h6>
+                    <label class="form-label">Grade Text File <span class="text-danger">*</span>
+                    </label>
+                  </h6>
+                  <input class="form-control grade-input" type="file" name="gradeUpload">
+                </div>
+
+                        <button type="submit" name="submit" class="btn btn-dark">PROCEED TO NEXT PAGE</button>
+
+                </form>
+
+                   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+                        
+                      
+  </body>
+</html>
